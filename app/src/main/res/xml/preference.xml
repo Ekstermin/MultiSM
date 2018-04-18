@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Uwierzytelnienie połączenia">
+        <EditTextPreference
+            android:id="@+id/DB"
+            android:key="DB_name"
+            android:title="Nazwa bazy danych"
+            android:summary="Podaj nazwę bazy" />
+        <EditTextPreference
+            android:id="@+id/user"
+            android:key="name"
+            android:title="Nazwa użytkownika"
+            android:summary="Podaj nazwę użytkownika" />
+        <EditTextPreference
+            android:id="@+id/pass"
+            android:key="password"
+            android:inputType="textPassword"
+            android:title="Hasło"
+            />
+        <EditTextPreference
+            android:id="@+id/domena"
+            android:key="domena"
+            android:title="Nazwa serwera "
+            android:summary="Podaj ip serwera" />
+        <EditTextPreference
+            android:id="@+id/addres"
+            android:key="ip"
+            android:title="Adres ip4"
+
+            android:summary="Podaj ip serwera" />
+
+
+
+    </PreferenceCategory>
+</PreferenceScreen>
